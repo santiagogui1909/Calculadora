@@ -1,0 +1,218 @@
+
+body{
+	background: #000000e7;
+	margin: 0px;
+}
+
+.title{
+	color: #ffffff;
+	font-size:20px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.keys{
+	margin:2px;
+	text-align: center;
+}
+
+.calculator{
+	padding:20px 0 100px 0;
+}
+
+/*botones estilos*/
+
+.number {
+	cursor:pointer;
+	width: 100px;
+	height: 60px;
+	font-size: 25px;
+	border-radius: 20px;
+	margin: 6px;
+	background-color: rgba(114, 114, 114, 0.712);
+	color: rgb(255, 255, 255);
+	border-style: none;
+}
+
+.operator {
+	cursor:pointer;
+	width: 90px;
+	height: 60px;
+	font-size: 25px;
+	border-radius: 20px;
+	margin: 6px;
+	background-color: rgb(252, 136, 11);
+	color: #fff;
+	border-style: none;
+}
+
+.porcent {
+	text-align: center;
+	cursor:pointer;
+	width: 100px;
+	height: 60px;
+	font-size: 25px;
+	border-radius: 20px;
+	margin: 6px;
+	background-color: rgb(9, 223, 38);
+	color: #fff;
+	border-style: none;
+}
+
+.delete {
+	text-align: center;
+	cursor:pointer;
+	width: 220px;
+	height: 60px;
+	font-size: 25px;
+	border-radius: 20px;
+	margin: 6px;
+	background-color: rgb(227, 9, 9);
+	color: #fff;
+	border-style: none;
+	text-transform: uppercase;
+}
+
+.equal{
+    text-align: center;
+	cursor:pointer;
+	width: 15%;
+	height: 60px;
+	font-size: 25px;
+	border-radius: 20px;
+	margin: 6px;
+	background-color: rgba(0, 10, 121, 0.831);
+	color: #fff;
+	border-style: none;
+} 
+
+.box-exit{
+	width: 30%;
+	margin-left: 34.4%;
+	padding:10px;	
+	background-color: rgba(0, 0, 0, 0.842);
+}
+
+.display{
+	width: 98%;
+	color: rgb(0, 0, 0);
+	font-size: 45px;
+	text-align: center;
+}
+
+button:hover{
+	background:#000000;
+}
+
+/**footer*/
+
+footer{
+	background:rgb(0, 0, 0);
+	padding: 20px;
+}
+
+.contFooter{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	color: #fff;
+	font-size: 15px;
+}
+
+.contact h3{
+	color: rgb(252, 136, 11);
+	font-size: 26px;
+	text-transform: capitalize;
+}
+
+.contact a{
+	text-decoration: none;
+	color: #fff;text-align: center;
+}
+
+.contact span{
+	padding:10px;
+	font-size: 25px;
+}
+
+.icon-linkedin {
+    color: #0057c9;
+    filter: drop-shadow(0px 0px 8px #0b59c0);
+}
+
+.icon-github-circled{
+    filter: drop-shadow(0px 0px 8px #cececeb7);
+}
+
+.icon-whatsapp {
+    color: #0eeb06;
+    filter: drop-shadow(0px 0px 8px #0bca24);
+}
+
+.icon-instagram {
+    color: #E1306C;
+    filter: drop-shadow(0px 0px 8px #fd1d1dbe);
+}
+
+.icon-gmail {
+    color: #da0000;
+    filter: drop-shadow(0px 0px 8px #bdbbbbad);
+}
+
+.Copyright{
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+	font-size:20px;
+}
+
+@media (max-width: 600px) {
+
+	.number , .operator {
+		width: 70px;
+		height: 40px;
+		font-size: 18px;
+		margin: 6px;
+	}
+
+	.delete, .equal{
+		width: 160px;
+		height: 40px;
+		font-size: 18px;
+		margin: 6px;
+	}
+
+	.box-exit{
+		width: 80%;
+		margin-left: 7%;
+		padding:10px;	
+	}
+	
+	.display{
+		width: 98%;
+		font-size: 45px;
+	}
+
+	.contact h3{
+		font-size: 28px;
+		text-transform: capitalize;
+		text-align: center;
+	}
+	
+	.contact span{
+		font-size: 25px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
